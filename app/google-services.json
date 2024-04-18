@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "660750957454",
+    "firebase_url": "https://yaroslavlquest-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "yaroslavlquest",
+    "storage_bucket": "yaroslavlquest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660750957454:android:b54f21f575eed0da1302df",
+        "android_client_info": {
+          "package_name": "com.example.yaroslavlquest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5F9wpvkdE6qfXOlJj2k2NYaynb5ukuK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
