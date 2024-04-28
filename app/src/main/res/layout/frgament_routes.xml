@@ -5,9 +5,111 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".bottomnav.routes.RoutesFragment">
-    <TextView
+
+    <LinearLayout
+        android:id="@+id/lin_1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="TEXT"
-></TextView>
+        android:layout_height="250dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="8dp"
+        android:src="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/lin_1"
+        app:layout_constraintStart_toStartOf="@+id/lin_1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="8dp"
+        android:gravity="start"
+        android:text=" Текстовое описание"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/lin_1"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="8dp"
+        android:text="   ул. Гагарина, д. 11"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="@+id/lin_1"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="55dp"
+        android:layout_height="30dp"
+        android:gravity="center_vertical"
+        android:text=" 30 мин."
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        android:layout_marginStart="25dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:src="@drawable/baseline_access_time_24"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="55dp"
+        android:layout_height="30dp"
+        android:gravity="center_vertical"
+        android:text=" 4 км."
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        android:layout_marginStart="25dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="25dp"
+        android:src="@drawable/baseline_vertical_distribute_24"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="55dp"
+        android:layout_height="30dp"
+        android:gravity="center_vertical"
+        android:text=" 500 "
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        android:layout_marginStart="25dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="25dp"
+        android:src="@drawable/baseline_explicit_24"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="244dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

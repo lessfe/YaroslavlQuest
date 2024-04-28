@@ -18,6 +18,9 @@
         android:theme="@style/Theme.MapTest"
         tools:targetApi="31">
         <activity
+            android:name=".bottomnav.routes.MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".bottomnav.map.MapFragment"
             android:exported="false" />
         <activity
